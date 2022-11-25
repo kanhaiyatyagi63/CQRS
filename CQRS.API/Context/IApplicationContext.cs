@@ -7,7 +7,7 @@ namespace CQRS.API.Context
     {
         DbSet<Product> Products { get; set; }
         DbSet<Country> Countries { get; set; }
-
+        DbSet<Project> Projects { get; set; }
 
         Task<int> SaveChangesAsync();
     }
